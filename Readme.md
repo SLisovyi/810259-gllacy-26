@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Sergii Lisovyi](https://up.htmlacademy.ru/htmlcss/26/user/810259).
-* Наставник: `Сан Саныч`.
+* Наставник: `None`.
 
 ---
 
