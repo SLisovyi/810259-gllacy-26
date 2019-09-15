@@ -44,6 +44,13 @@
         <ul>
           <li>
             <button type="button">Поиск</button>
+            <!--search modal field-->
+            <div>
+              <form action="https://echo.htmlacademy.ru" method="post">
+                <label for="search">search</label>
+                <input id="search" type="text" name="search" placeholder="Крем-брюле">
+              </form>
+            </div>
           </li>               
           <li>
             <a href="#">Войти</a>
@@ -181,7 +188,29 @@
         <p>Для заказов по телефону:</p>
         <a>8 812 450-25-25</a>
         <p>(с 10 до 20 ежедневно)</p>
-        <a>Форма обратной связи</a>
+        <a href="#">Форма обратной связи</a>
+        <!--modal feedback form-->
+        <div>
+          <p>Мы обязательно вам ответим!</p>
+          <form action="https://echo.htmlacademy.ru" method="post">
+            <ul>
+                
+              <li>
+                <label for="feedback-name">Имя Фамилия</label>
+                <input id="feedback-name" type="text" name="feedback-name" placeholder="Имя Фамилия">
+              </li>  
+              <li>
+                <label for="feedback-email">email</label>
+                <input id="feedback-email" type="text" name="feedback-email" placeholder="email@example.com">
+              </li>
+              <li>
+                  <textarea name="feedback-text" id="feedback-field" rows="10" placeholder="В свободной форме"></textarea>
+              </li>
+            </ul>
+            <button type="submit">Войти</button>
+            <button type="button">закрыть</button>
+          </form> 
+        </div>
       </section>
     </main>
     <footer>
